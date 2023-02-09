@@ -1,48 +1,42 @@
 .nav-work {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     padding: 1px 20px;
     background-color: #000;
     margin: -5px;
 }
 
-.nav-work li {
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-work a {
     display: inline-block;
     list-style: none;
     height: 25px;
     line-height: 25px;
-    padding: 0 40px;
     color: azure;
-}
-
-.nav-work li a {
     text-decoration: none;
-    color: azure;
 }
 
-.nav-work li a:hover {
+.nav-work a:hover {
     color: #8cd5fe;
 }
 
-.nav-work li a:active {
+.nav-work a:active {
     color: #8cd5fe;
 }
 
-.logo{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 35px;
-    height: 65px;
-    margin-left: 30px;
+.form-group {
+    display: flex;
+    justify-content: space-between;
 }
 
-.form-group{
-display: flex;
-justify-content: space-between;
-}
-
-input{
+input {
     width: 100%;
     height: 30px;
     border: 1px solid #ccc;
@@ -51,26 +45,58 @@ input{
     margin-bottom: 40px;
 }
 
-form{
-margin: 0 100px;
+form {
+    margin: 0 100px;
 }
 
-.savebtn{
+.savebtn {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     height: 35px;
 }
 
-button{
+button {
     background-color: #8cd5fe;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-top: 30px;
 }
 
-p{
+p {
     text-align: center;
+}
+
+.ninja {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    font-size: small;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.skill-card {
+    width: 40%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 5px 200px 0px 200px;
+    box-shadow: 0 2px 5px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.skill-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
